@@ -1,21 +1,22 @@
-<footer style="text-align:center; padding:20px;">
+<div class="page__footer-follow">
+  <ul class="social-icons">
 
-  <p>© 2026 Pawan Daga </p>
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li>
+            <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+              {{ link.label }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-  <div style="font-size:24px;">
+  </ul>
+</div>
 
-    <a href="https://x.com/pa1daga" target="_blank" style="margin:10px;">
-      <i class="fab fa-twitter-square"></i>
-    </a>
-
-    <a href="https://linkedin.com/in/pa1daga" target="_blank" style="margin:10px;">
-      <i class="fab fa-linkedin"></i>
-    </a>
-
-    <a href="https://instagram.com/pa1maheshwari" target="_blank" style="margin:10px;">
-      <i class="fab fa-instagram"></i>
-    </a>
-
-  </div>
-
-</footer>
+<div class="page__footer-copyright">
+  &copy; 2026 Pawan Daga. All rights reserved.
+</div>
