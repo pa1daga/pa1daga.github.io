@@ -1,6 +1,6 @@
 ---
 title: Welcome to My website!
-date: 2026-05-11T12:21:00-25:00
+date: 2026-05-11
 categories:
   - Contact Info
 tags:
