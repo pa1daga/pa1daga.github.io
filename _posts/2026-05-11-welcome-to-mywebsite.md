@@ -9,7 +9,7 @@ tags:
 
 `Welcom !` to my website.
 
-Check out my [Linkedin profile]. [Linkedin profile]
+Check out my [Linkedin profile].[Linkedin profile]
 
  [Linkedin profile]: https://linkedin.com/in/pa1daga
 
